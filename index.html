@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music player</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <audio>
+            <source  id="myAudio" src="./Music/Believer   Imagine Dragon.mp3" type="audio/mpeg">
+        </audio>
+        <div class="wrapper">
+            <div class="pic">
+                <img src="https://img.freepik.com/free-vector/music-player-neon-sign_1262-15625.jpg">
+            </div>
+            <div class="music-player">
+                <div class="name"></div>
+                <div class="nav">
+                    <div class="nav1">
+                        <img src="https://icons-for-free.com/iconfiles/png/512/arrows+audio+left+media+music+player+rewind+sound+video+icon-1320085966899230976.png">
+                        <img id="pause" onclick="change()" src="https://cdn3.iconfinder.com/data/icons/audio-sound-and-video/64/audio-video-outline-play-512.png">
+                        <img class="right" src="https://icons-for-free.com/iconfiles/png/512/arrows+audio+left+media+music+player+rewind+sound+video+icon-1320085966899230976.png">
+                        <img id="continue" class="pause" src="https://icons-for-free.com/iconfiles/png/512/media+music+pause+player+sound+video+icon-1320085967989908413.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
